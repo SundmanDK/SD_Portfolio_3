@@ -141,7 +141,6 @@ public class Controller{
                 view.setArea(output, "Room already booked");
                 return;
             }
-            System.out.println("hello");
         }
         if (!model.canRoomFitCourse(room, course)){
             view.setArea(output, "Room is not big enough");
